@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titre"></h1>
+    <form id="formulaire">
+        <div class="form-item">
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" placeholder="Votre prénom">
+            <div class="error invisible">Ce champ doit contenir entre deux et dix caractères.</div>
+        </div>
+        <div class="form-item">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" placeholder="Votre nom">
+            <div class="error invisible">Ce champ doit contenir entre trois et quinze caractères.</div>
+        </div>
+        <div class="form-item">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Votre email">
+        </div>
+        <div class="form-item">
+            <label for="message">Votre message</label>
+            <textarea id="message" placeholder="Votre message"></textarea>
+            <div class="error invisible">Ce champ doit contenir entre dix et cent caractères.</div>
+        </div>
+        <button id="btn" type="submit">Envoyer</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

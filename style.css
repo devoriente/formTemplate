@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 1.4rem;/*Pour rendre 1rem = 10 pixels*/
+}
+
+#formulaire {
+    width: 50%;
+    background-color: white;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 45px;
+}
+.form-item {
+    margin-bottom: 3rem;
+}
+.form-item label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.form-item input, textarea {
+    padding: 1rem;
+    width: 100%;
+    color: grey;
+    font-size: 2rem;
+}
+textarea {
+    height: 200px;
+    font-family: inherit; /*Annuler la police par défaut de textarea*/
+    resize: none; /*Empêcher d'étirer les champs*/
+}
+#btn {
+    background-color: orange;
+    color: #1E2337;
+    border: none;
+    padding: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.error {
+    margin-top: 5px;
+    color: red;
+}
+.invisible {
+    display: none;
+}
